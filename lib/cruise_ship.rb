@@ -8,7 +8,9 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  lucky_winner = ""
   passengers.each do |room,name|
-
+    if room == "suite_a" && name.start_with?(A)
+      lucky_winner = name
   end 
 end
