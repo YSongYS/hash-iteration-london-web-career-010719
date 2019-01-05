@@ -13,6 +13,6 @@ def select_winner(passengers)
     if room == "suite_a" && name.start_with?(A)
       lucky_winner = name
     end 
-  end 
+  end
   lucky_winner
 end
