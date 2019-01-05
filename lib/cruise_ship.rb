@@ -12,7 +12,6 @@ def select_winner(passengers)
   passengers.each do |room,name|
     if room == :suite_a && name.start_with?("A")
       lucky_winner = name
-      puts lucky_winner
     end
   end
   lucky_winner
