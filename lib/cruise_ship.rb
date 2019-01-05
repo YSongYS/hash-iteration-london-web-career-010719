@@ -17,3 +17,5 @@ def select_winner(passengers)
   end
   lucky_winner
 end
+
+select_winner(passengers)
